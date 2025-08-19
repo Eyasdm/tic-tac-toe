@@ -1,6 +1,6 @@
 # Tic-Tac-Toe (XO)
 
-![Screenshot](<screenshot.png>)
+![Screenshot](assets/screenshot.jpg)
 
 ## Overview
 A simple **Tic-Tac-Toe** (XO) game built with **HTML**, **CSS**, and **Vanilla JavaScript**.  
@@ -11,7 +11,7 @@ This project demonstrates DOM manipulation, game state management, and event han
 
 ## Features
 - Two-player local gameplay (X vs O)  
-- Win / draw detection and visual highlight for winning line  
+- Win / draw detection and visual highlight for the winning line  
 - Reset / New Game button to restart the board  
 - Responsive layout for mobile, tablet, and desktop  
 - Clean, minimal UI and accessible button targets
