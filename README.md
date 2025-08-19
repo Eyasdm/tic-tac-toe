@@ -1,7 +1,5 @@
 # Tic-Tac-Toe (XO)
 
-![Screenshot](assets/screenshot.jpg)
-
 [🔗 Live demo](https://tictactoeeyas.netlify.app/) · ![Live badge](https://img.shields.io/badge/Live-Netlify-brightgreen)
 
 ## Overview
@@ -29,3 +27,12 @@ This project demonstrates DOM manipulation, game state management, and event han
 - [assets/](./assets/)
   - [screenshot.jpg](./assets/screenshot.jpg)
 - [README.md](./README.md)
+
+---
+
+## How to Run Locally
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/tictactoe.git
