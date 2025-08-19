@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>XO Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="tic-tac-toe.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&family=Fredoka:wght@300..700&family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="modal hidden">
+      <p class="congratulation">🎉 Congratulations</p>
+      <p class="winner">Player 1 win the game</p>
+      <div class="modal-btn">
+        <button class="continue-btn">Continue</button>
+        <button class="new-game-btn">New Game</button>
+      </div>
+      <p class="who-will-play">
+        Next game: Player 1 will start and play with “X”
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
+    <div class="container" id="container">
+      <div class="board">
+        <div class="cell cell-0"></div>
+        <div class="cell cell-1"></div>
+        <div class="cell cell-2"></div>
+        <div class="cell cell-3"></div>
+        <div class="cell cell-4"></div>
+        <div class="cell cell-5"></div>
+        <div class="cell cell-6"></div>
+        <div class="cell cell-7"></div>
+        <div class="cell cell-8"></div>
+      </div>
+    </div>
+    <div class="choice-container">
+      <div class="choice-board">
+        <div class="player-1 choice-cell">
+          <div class="player-1-name">Player 1</div>
+          <div class="player1-symbol player-symbol">X</div>
+        </div>
+        <div class="player-2 choice-cell">
+          <div class="player-2-name">Player 2</div>
+          <div class="player2-symbol player-symbol">O</div>
+        </div>
+      </div>
+    </div>
+    <div class="btn-container">
+      <div class="btn-background">
+        <button class="reset">Reset</button>
+      </div>
+    </div>
+    <div class="score-container">
+      <div class="score-board">
+        <div class="player-board">
+          <div class="player">Player 1</div>
+          <div class="score score-1">0</div>
+        </div>
+        <div class="player-board">
+          <div class="player">Player 2</div>
+          <div class="score score-2">0</div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
