@@ -24,5 +24,3 @@ This project demonstrates DOM manipulation, game state management, and event han
 - JavaScript (ES6) — DOM manipulation, events
 
 ---
-
-## Project Structure (example)
