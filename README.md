@@ -2,6 +2,8 @@
 
 ![Screenshot](assets/screenshot.jpg)
 
+[🔗 Live demo](https://tictactoeeyas.netlify.app/) · ![Live badge](https://img.shields.io/badge/Live-Netlify-brightgreen)
+
 ## Overview
 A simple **Tic-Tac-Toe** (XO) game built with **HTML**, **CSS**, and **Vanilla JavaScript**.  
 This project demonstrates DOM manipulation, game state management, and event handling — ideal as a beginner frontend project.  
@@ -11,16 +13,19 @@ This project demonstrates DOM manipulation, game state management, and event han
 
 ## Features
 - Two-player local gameplay (X vs O)  
-- Win / draw detection and visual highlight for the winning line  
+- Win / draw detection with visual highlight of the winning line  
 - Reset / New Game button to restart the board  
 - Responsive layout for mobile, tablet, and desktop  
-- Clean, minimal UI and accessible button targets
+- Clean, minimal UI with accessible button targets and keyboard-friendly interactions
 
 ---
 
-## Tech Stack
-- HTML5  
-- CSS3 (Flexbox / Grid)  
-- JavaScript (ES6) — DOM manipulation, events
-
----
+## Project Structure
+- [index.html](./index.html)
+- [css/](./css/)
+  - [style.css](./css/style.css)
+- [js/](./js/)
+  - [script.js](./js/script.js)
+- [assets/](./assets/)
+  - [screenshot.jpg](./assets/screenshot.jpg)
+- [README.md](./README.md)
